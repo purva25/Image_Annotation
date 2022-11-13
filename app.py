@@ -16,7 +16,7 @@ def main():
         layout="wide"
     )
 
-    tabs = st.sidebar.selectbox(
+    tabs = st.selectbox(
         'Choose one of the following',
         ('Annotate Image','Resize Image'),
         key="main_menu"
